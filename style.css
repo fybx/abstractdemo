@@ -26,16 +26,6 @@ body {
   right: 0;
 }
 
-.gradient{
-  background: linear-gradient(to right, rgba(194, 1, 1, 0.1), rgba(81, 255, 0, 0.1));
-  transition-property: background color;
-  height: 100px;
-  width: 200px;
-  transition-duration: 1000ms;
-  transition-property: all;
-}
-
-
 .entry {
   height: 350px;
   position: relative;
@@ -64,4 +54,13 @@ body {
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.gradient{
+  background: linear-gradient(to right, rgba(194, 1, 1, 0.1), rgba(81, 255, 0, 0.1));
+  transition-property: background color;
+  height: 100px;
+  width: 200px;
+  transition-duration: 1000ms;
+  transition-property: all;
 }
