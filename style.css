@@ -57,8 +57,11 @@ body {
 }
 
 .article-card{
-  position: relative;
   
+}
+
+.card-title{
+  font-weight: 700;
 }
 
 .card-content{
