@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap");
+
+body {
+  background: #f2f2f2;
+}
+
+.primary {
+  font-family: Raleway;
+  font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+
+.banner-image {
+  width: 300;
+  border-radius: 30%;
+}
+
+.image-container {
+  background-image: url(res/images/entry_banner.jpg);
+  height: 300px;
+  background-position: center;
+  display: flex;
+  background-size: cover;
+  right: 0;
+}
+
+.gradient{
+  background: linear-gradient(to right, rgba(194, 1, 1, 0.1), rgba(81, 255, 0, 0.1));
+  transition-property: background color;
+  height: 100px;
+  width: 200px;
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
+
+.entry {
+  height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-p {
+  align-content: center;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.goz-at {
+  align-self: center;
+  position: absolute;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
