@@ -39,17 +39,17 @@ window.onload=function(){
     article_data.forEach((item) => {
         let li = document.createElement('li');
         li.innerHTML = '<li class="article-card col-10 offset-1 col-lg-6 offset-lg-0 col-xl-2 offset-xl-0 text-center">' +
-        ' <div>' +
-          '<a href="#" class="a-card">'+
-           '<p class=\'card-title\'>' +
-             item['title'] + '</p>' + 
-             '<p class=\'card-content p-3\'>' +
-              item['content']+
-            '</p>'+
-            '<p class=\'card-date\'>Temmuz 16, 2020</p>'+
-          '</a>'+
-        '</div>'+
-      '</li>';
+        `<div>
+          <a href="#" class="a-card">
+           <p class=card-title>` 
+           + item['title'] +`</p> 
+             <p class='card-content p-3'>` +
+             item['content'] +
+           `</p>
+            <p class=card-date>Temmuz 16, 2020</p>
+          </a>
+        </div>
+      </li>`;
     article_list.appendChild(li);
 });
 }
