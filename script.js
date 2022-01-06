@@ -5,7 +5,6 @@ window.onload=function(){
     let article_list;
     article_list = document.getElementById('article_list');
     var gozat_box = document.getElementById('gozat_box');
-    
 
     article_data.forEach((item) => {
         let title = item['title'].slice(0,30);
@@ -24,3 +23,12 @@ window.onload=function(){
 });
 }
 
+function card_title_margin(x){
+    if(!x.matches){
+        document.getElementsByClassName[0].setAttribute('style', 'top: -18px;');
+    } /* else{
+        document.getElementsByClassName('card-title').forEach((e)=> {
+            e.setAttributes('style', 'top: -18px');
+        });
+    } */
+}

@@ -61,6 +61,21 @@ body {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1200px){
+  .card-title{
+    top: -18px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .card-title{
+    top: -30px;
+  }
+}
+
+
+
+
 .article-card{
   position: relative;
   justify-content: center;
@@ -86,7 +101,7 @@ body {
   font-weight: 700;
   font-size: 22px;
   position: absolute;
-  top: -18px;
+  
   left: 0; 
   right: 0; 
   margin-left: auto; 
