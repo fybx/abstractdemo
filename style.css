@@ -66,3 +66,10 @@ body {
   border-radius: 30px;
   font-size: 14px;
 }
+
+.footer-box{
+  color: #f2f2f2;
+  font-family: 'Raleway';
+  bottom: 0;
+  background-color: rgb(20, 20, 20);
+}
