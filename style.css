@@ -66,12 +66,17 @@ body {
   justify-content: center;
   transition: 0.5s;
   text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #252525;
 }
 .article-card:hover{
   transform: scale(1.1)
 }
 
 .card-title{
+  line-height: 25px;
   font-weight: 700;
   font-size: 22px;
   position: absolute;
@@ -91,9 +96,15 @@ body {
 
 .card-date{
   position: absolute;
-  bottom: -28px;
+  bottom: -25px;
   left: 0; 
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
+}
+.footer-box{
+  color: #f2f2f2;
+  font-family: 'Raleway';
+  bottom: 0;
+  background-color: rgb(20, 20, 20);
 }
