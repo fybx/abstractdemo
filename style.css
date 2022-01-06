@@ -4,10 +4,11 @@ body {
   background: #f2f2f2;
 }
 
-.primary {
-  font-family: sans-serif Raleway;
+* {
+  font-family: Raleway;
   font-weight: 400;
 }
+
 .bold{
     font-weight: 700;
 }
@@ -54,16 +55,45 @@ body {
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  transition: 1.5s;
+}
+.goz-at:hover{
+  transform: scale(1.1);
 }
 
-
+.article-card{
+  position: relative;
+  justify-content: center;
+  transition: 0.5s;
+  text-align: left;
+}
+.article-card:hover{
+  transform: scale(1.1)
+}
 
 .card-title{
   font-weight: 700;
+  font-size: 22px;
+  position: absolute;
+  top: -18px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  
 }
 
 .card-content{
   background-color: white;
   border-radius: 30px;
   font-size: 14px;
+}
+
+.card-date{
+  position: absolute;
+  bottom: -28px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
