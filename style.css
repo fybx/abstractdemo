@@ -43,6 +43,8 @@ body {
 }
 
 .goz-at {
+  font-weight: 600;
+  font-size: 20px;
   align-self: center;
   bottom: 10px;
   margin-top: 300px;
@@ -73,8 +75,9 @@ body {
   }
 }
 
-
-
+.article-list{
+  padding-left: 0px;
+}
 
 .article-card{
   position: relative;
@@ -117,7 +120,7 @@ body {
 
 .card-date{
   position: absolute;
-  bottom: -28px;
+  bottom: -10px;
   left: 0; 
   right: 0; 
   margin-left: auto; 

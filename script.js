@@ -16,7 +16,7 @@ window.onload=function(){
         + title +`</p> 
           <p class='card-content p-3'>` +
           content +
-        `</p>
+        `...</p>
          <p class=card-date>Temmuz 16, 2020</p>
        </a>`;
     article_list.appendChild(li);
